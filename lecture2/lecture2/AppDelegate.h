@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "RootViewController.h"
+#import "Vehicle.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate, RootViewControllerDelegate>
 

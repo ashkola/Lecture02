@@ -55,6 +55,9 @@
 -(void)didButtonClick
 {
     NSLog(@"Application Delegate is called");
+    NSLog(@"%@", [Vehicle getVehicleWithName:@"Name" price:@12]);
+
+    
 }
 
 @end

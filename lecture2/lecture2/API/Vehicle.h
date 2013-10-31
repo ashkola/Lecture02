@@ -10,5 +10,5 @@
 
 @interface Vehicle : Transport
 @property NSNumber* price;
-+(id)getVehicleWithName:(NSString*)name price:(NSNumber*)price;
++(Vehicle*)getVehicleWithName:(NSString*)name price:(NSNumber*)price;
 @end

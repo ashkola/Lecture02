@@ -9,7 +9,7 @@
 #import "Vehicle.h"
 
 @implementation Vehicle
-+(id)getVehicleWithName:(NSString*)name price:(NSNumber*)price
++(Vehicle*)getVehicleWithName:(NSString*)name price:(NSNumber*)price
 {
     Vehicle* car = [[Vehicle alloc] init];
     car.price = price;
